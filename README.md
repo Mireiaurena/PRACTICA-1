@@ -28,8 +28,8 @@ void loop() {
  
 ## Modificación con delay
 ```cpp
-#define LED_BUILTIN 2
-#define DELAY 1000
+#define LED_BUILTIN 23
+#define DELAY 750
 
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
@@ -49,7 +49,7 @@ void loop() {
 ## Modificación sin delay
 ```cpp
 #define LED_BUILTIN 23
-    #define DELAY 500
+    #define DELAY 750
 
     void setup()
     {
@@ -74,7 +74,7 @@ void loop() {
 #include <Arduino.h>
 
 #define LED_BUILTIN 23
-#define DELAY 1000
+#define DELAY 750
 
 #define GPIO_OUT_REG 0x3FF4400C
 
